@@ -1,6 +1,14 @@
 <nav>
   <div class="nav-wrapper grey">
-    <a href="/">The Robin's Nest</a>
+    <div class="container">
+      <a href="/">The Robin's Nest</a>
+      <ul id="nav-mobile" class="right hide-on-small-and-down">
+        <li><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'Main Menu', items_path %></li>
+        <!-- <li><%# link_to 'Catering Menu', %></li> -->
+      </ul>
+    </div>
+
 
   </div>
 </nav>

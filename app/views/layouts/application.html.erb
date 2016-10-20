@@ -11,8 +11,10 @@
 
   <body>
     <%= render(partial: 'layouts/nav') %>
+    <div class="container">
     <%= yield %>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    </div> 
   </body>
 </html>
